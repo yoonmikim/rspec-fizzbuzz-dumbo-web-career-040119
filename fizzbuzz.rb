@@ -3,12 +3,12 @@
 
 def fizzbuzz(n)
   if n % 3 == 0 && n % 5 == 0
-    'fizzbuzz'
+    'FizzBuzz'
   elsif n % 3 == 0 && n % 5 != 0
     'Fizz'
   elsif n % 5 == 0 && n % 3 != 0
     'Buzz'
   else
-    'nil'
+    nil
   end
 end
